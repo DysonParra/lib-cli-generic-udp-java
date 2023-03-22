@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericUdpClient} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericUdpClient}
  *
  * @version         2.0
  *

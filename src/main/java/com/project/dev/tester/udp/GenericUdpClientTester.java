@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericUdpClientTester} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericUdpClientTester}
  *
  * @version         2.0
  *

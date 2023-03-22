@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericUdpServer} se encarga de realizar tareas específicas.
+ * @fileoverview    {GenericUdpServer}
  *
  * @version         2.0
  *

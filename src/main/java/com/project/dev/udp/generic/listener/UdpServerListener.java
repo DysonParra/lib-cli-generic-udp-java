@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {UdpServerListener} se encarga de realizar tareas específicas.
+ * @fileoverview    {UdpServerListener}
  *
  * @version         2.0
  *

@@ -17,7 +17,7 @@ package com.project.dev;
 import com.project.dev.tester.udp.GenericUdpServerTester;
 
 /**
- * TODO: Definición de {@code Application}.
+ * TODO: Description of {@code Application}.
  *
  * @author Dyson Parra
  * @since 11

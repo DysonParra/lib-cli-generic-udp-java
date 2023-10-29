@@ -15,7 +15,7 @@
 package com.project.dev.udp.generic;
 
 /**
- * FIXME: Definición de {@code GenericUdp}. Contiene los mensajes y las respuestas que tienen un
+ * FIXME: Description of {@code GenericUdp}. Contiene los mensajes y las respuestas que tienen un
  * cliente y un servidor para comunicarse entre si.
  *
  * @author Dyson Parra

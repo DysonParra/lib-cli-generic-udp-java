@@ -17,7 +17,7 @@ package com.project.dev.tester.udp;
 import com.project.dev.udp.generic.GenericUdpClient;
 
 /**
- * FIXME: Definición de {@code GenericUdpClientTester}. Contiene un ejemplo de como enviar
+ * FIXME: Description of {@code GenericUdpClientTester}. Contiene un ejemplo de como enviar
  * peticiones a un servidor udp genérico.
  *
  * @author Dyson Parra

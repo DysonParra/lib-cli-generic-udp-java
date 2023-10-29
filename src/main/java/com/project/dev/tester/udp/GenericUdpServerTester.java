@@ -18,7 +18,7 @@ import com.project.dev.udp.generic.GenericUdpServer;
 import com.project.dev.udp.generic.listener.UdpServerListener;
 
 /**
- * FIXME: Definición de {@code GenericUdpServerTester}. Contiene un ejemplo de como ejecutar un
+ * FIXME: Description of {@code GenericUdpServerTester}. Contiene un ejemplo de como ejecutar un
  * servidor udp, asignarle un listener y que este listener ejecute acciones en momentos específicos.
  *
  * @author Dyson Parra

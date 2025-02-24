@@ -21,7 +21,7 @@ import com.project.dev.udp.generic.GenericUdpClient;
  * peticiones a un servidor udp genérico.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class GenericUdpClientTester {
 

@@ -22,7 +22,7 @@ import com.project.dev.udp.generic.listener.UdpServerListener;
  * servidor udp, asignarle un listener y que este listener ejecute acciones en momentos específicos.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public class GenericUdpServerTester {
 

@@ -31,7 +31,7 @@ import lombok.Setter;
  * servidor udp genérico y ejecutar acciones al recibir peticiones de un cliente udp genérico.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 //@AllArgsConstructor
 //@Builder

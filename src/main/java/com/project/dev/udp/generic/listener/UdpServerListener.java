@@ -19,7 +19,7 @@ package com.project.dev.udp.generic.listener;
  * genérico en algún momento específico.
  *
  * @author Dyson Parra
- * @since 11
+ * @since Java 17 (LTS), Gradle 7.3
  */
 public interface UdpServerListener {
 

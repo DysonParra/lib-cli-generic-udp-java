@@ -26,12 +26,14 @@ public interface UdpServerListener {
     /**
      * FIXME: Description of {@code onConnectRequest}. Realiza una acción luego de que se obtenga una
      * petición de conexión.
+     *
      */
     public abstract void onConnectRequest();
 
     /**
      * FIXME: Description of {@code onDisconnectRequest}. Realiza una acción luego de que se obtenga
      * una petición de desconexión.
+     *
      */
     public abstract void onDisconnectRequest();
 
@@ -56,12 +58,14 @@ public interface UdpServerListener {
     /**
      * FIXME: Description of {@code onTimeOutRequest}. Realiza una acción luego de que no se pueda
      * obtener un paquete en el timeOut del servidor.
+     *
      */
     public abstract void onTimeOutRequest();
 
     /**
      * FIXME: Description of {@code onConfirmRequest}. Realiza una acción luego de que se obtenga una
      * petición de confirmación del cliente.
+     *
      */
     public abstract void onConfirmRequest();
 }

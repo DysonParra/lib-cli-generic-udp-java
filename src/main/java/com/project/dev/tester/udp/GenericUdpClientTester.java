@@ -26,12 +26,13 @@ import com.project.dev.udp.generic.GenericUdpClient;
 public class GenericUdpClientTester {
 
     /**
-     * Entrada principal del sistema.
+     * Ejecuta las pruebas de la aplicación.
      *
      * @param args argumentos de la linea de comandos.
+     * @return {@code true} si se ejecutan las pruebas correctamente, {@code false} caso contrario.
      * @throws java.lang.Exception
      */
-    public static void main(String[] args) throws Exception {
+    public static boolean startTesting(String[] args) throws Exception {
         // crea un cliente udp genérico y le asigna una dirección ip y un puerto de conexión al servidor.
         GenericUdpClient udpClient = new GenericUdpClient();
         udpClient.setServerIpAddress("192.168.1.2");

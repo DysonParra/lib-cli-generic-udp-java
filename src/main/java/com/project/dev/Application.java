@@ -31,8 +31,8 @@ public class Application {
      */
     public static void main(String[] args) {
         try {
-            GenericUdpServerTester.main(args);
-            //GenericUdpClientTester.main(args);
+            GenericUdpServerTester.startTesting(args);
+            //GenericUdpClientTester.startTesting(args);
         } catch (Exception e) {
             e.printStackTrace(System.out);
         }

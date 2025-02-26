@@ -27,12 +27,13 @@ import com.project.dev.udp.generic.listener.UdpServerListener;
 public class GenericUdpServerTester {
 
     /**
-     * Entrada principal del sistema.
+     * Ejecuta las pruebas de la aplicación.
      *
      * @param args argumentos de la linea de comandos.
+     * @return {@code true} si se ejecutan las pruebas correctamente, {@code false} caso contrario.
      * @throws java.lang.Exception
      */
-    public static void main(String[] args) throws Exception {
+    public static boolean startTesting(String[] args) throws Exception {
         // 2147483647 // 347602922.
         GenericUdpServer udpServer = new GenericUdpServer(50);                  // Crea un servidor Udp con tamaño de mensajes de 50 bytes.
         udpServer.setServerTimeOut(0);                                          // Indica que el servidor no ejecutará acciones cuando pase un tiempo sin recibir peticiones.

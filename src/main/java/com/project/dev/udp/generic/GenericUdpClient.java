@@ -64,7 +64,7 @@ public class GenericUdpClient implements GenericUdp {
     private boolean connectedToServer;                                                                  // Si ya se conectó al servidor.
 
     /**
-     * TODO: Description of {@code GenericUdpClient}.
+     * TODO: Description of method {@code GenericUdpClient}.
      *
      * @throws java.net.SocketException Si hay un problema creando el socket.
      */
@@ -76,7 +76,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * TODO: Description of {@code GenericUdpClient}.
+     * TODO: Description of method {@code GenericUdpClient}.
      *
      * @param serverIpAddres es la ip del servidor.
      * @param serverPort     es el puerto del servidor.
@@ -90,7 +90,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * TODO: Description of {@code getServerIpAddress}.
+     * TODO: Description of method {@code getServerIpAddress}.
      *
      * @return
      */
@@ -99,7 +99,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * TODO: Description of {@code setServerIpAddress}.
+     * TODO: Description of method {@code setServerIpAddress}.
      *
      * @param ipAddres
      * @throws java.net.UnknownHostException
@@ -113,7 +113,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * TODO: Description of {@code setServerPort}.
+     * TODO: Description of method {@code setServerPort}.
      *
      * @param serverPort
      */
@@ -126,7 +126,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * TODO: Description of {@code getStringResponse}.
+     * TODO: Description of method {@code getStringResponse}.
      *
      * @return
      */
@@ -137,7 +137,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * TODO: Description of {@code getResponse}.
+     * TODO: Description of method {@code getResponse}.
      *
      * @return
      */
@@ -146,7 +146,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendTestConnectionRequest}. Envía una petición de prueba de la
+     * FIXME: Description of method {@code sendTestConnectionRequest}. Envía una petición de prueba de la
      * conexión con el servidor.
      *
      * @param timeout es la cantidad de tiempo que se intenta enviar la petición.
@@ -157,7 +157,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendConfirmRequest}. Envía una petición de confirmación al
+     * FIXME: Description of method {@code sendConfirmRequest}. Envía una petición de confirmación al
      * servidor.
      *
      * @param timeout es la cantidad de tiempo que se intenta enviar la petición.
@@ -168,7 +168,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendGetMessageSizeRequest}. Envía una petición para obtener el
+     * FIXME: Description of method {@code sendGetMessageSizeRequest}. Envía una petición para obtener el
      * tamaño de los mensajes del servidor.
      *
      * @param timeout es la cantidad de tiempo que se intenta enviar la petición.
@@ -192,7 +192,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendConnectRequest}. Envía una petición de conexión.
+     * FIXME: Description of method {@code sendConnectRequest}. Envía una petición de conexión.
      *
      * @param timeout es la cantidad de tiempo que se intenta enviar la petición.
      * @return si fue posible realizar la petición.
@@ -210,7 +210,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendDisconnectRequest}. Envía una petición de desconexión.
+     * FIXME: Description of method {@code sendDisconnectRequest}. Envía una petición de desconexión.
      *
      * @param timeout es la cantidad de tiempo que se intenta enviar la petición.
      * @return si fue posible realizar la petición.
@@ -225,7 +225,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendGenericRequest}. Envía una petición de genérica al servidor.
+     * FIXME: Description of method {@code sendGenericRequest}. Envía una petición de genérica al servidor.
      *
      * @param timeout         Cantidad de tiempo que se intenta enviar la petición.
      * @param message         Mensaje que se enviará.
@@ -247,7 +247,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendGenericRequest}. Envía una petición de desconexión.
+     * FIXME: Description of method {@code sendGenericRequest}. Envía una petición de desconexión.
      *
      * @param timeout         Cantidad de tiempo que se intenta enviar la petición.
      * @param message         Mensaje que se enviará.
@@ -259,7 +259,7 @@ public class GenericUdpClient implements GenericUdp {
     }
 
     /**
-     * FIXME: Description of {@code sendRequest}. Envía mensajes al servidor.
+     * FIXME: Description of method {@code sendRequest}. Envía mensajes al servidor.
      *
      * @param requestType es el tipo de petición que se enviará al servidor.
      * @param message     es el array con el mensaje que se enviará al servidor.

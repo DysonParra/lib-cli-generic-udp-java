@@ -73,7 +73,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     private UdpServerListener onRequestListener = null;                                             // Crea listener del servidor udp.
 
     /**
-     * TODO: Description of {@code GenericUdpServer}.
+     * TODO: Description of method {@code GenericUdpServer}.
      *
      * @param maxMessageSize es el tamaño máximo de los mensajes que se recibirán.
      * @throws java.lang.Exception
@@ -101,7 +101,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericUdpServer}.
+     * TODO: Description of method {@code GenericUdpServer}.
      *
      * @param maxMessageSize    es el tamaño máximo de los mensajes que se recibirán.
      * @param onRequestListener es el listener del servidor.
@@ -113,7 +113,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericUdpServer}.
+     * TODO: Description of method {@code GenericUdpServer}.
      *
      * @param serverPort     es el puerto del servidor.
      * @param maxMessageSize es el tamaño máximo de los mensajes que se recibirán.
@@ -135,7 +135,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code GenericUdpServer}.
+     * TODO: Description of method {@code GenericUdpServer}.
      *
      * @param serverPort        es el puerto del servidor.
      * @param maxMessageSize    es el tamaño máximo de los mensajes que se recibirán.
@@ -148,7 +148,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code setMaxMessageSize}.
+     * TODO: Description of method {@code setMaxMessageSize}.
      *
      * @param maxMessageSize
      */
@@ -157,7 +157,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code setServerPort}.
+     * TODO: Description of method {@code setServerPort}.
      *
      * @param serverPort
      * @throws java.net.SocketException
@@ -168,7 +168,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code getStringClientRequest}.
+     * TODO: Description of method {@code getStringClientRequest}.
      *
      * @return
      */
@@ -179,7 +179,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code getClientRequest}.
+     * TODO: Description of method {@code getClientRequest}.
      *
      * @return
      */
@@ -188,7 +188,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * TODO: Description of {@code getStringClientMessage}.
+     * TODO: Description of method {@code getStringClientMessage}.
      *
      * @return
      */
@@ -197,7 +197,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code assignServerIpAddress}. Almacena dirección ip del servidor.
+     * FIXME: Description of method {@code assignServerIpAddress}. Almacena dirección ip del servidor.
      *
      * @return la dirección ip del servidor.
      */
@@ -219,7 +219,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code setServerTimeOut}. Asigna tiempo máximo de espera del servidor
+     * FIXME: Description of method {@code setServerTimeOut}. Asigna tiempo máximo de espera del servidor
      * para recibir un paquete.
      *
      * @param timeOut es el nuevo tiempo máximo de espera.
@@ -235,7 +235,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code startServer}. Inicia el servidor.
+     * FIXME: Description of method {@code startServer}. Inicia el servidor.
      *
      */
     public final void startServer() {
@@ -352,7 +352,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code stopServer}. Detiene el servidor que tiene {Runnable},
+     * FIXME: Description of method {@code stopServer}. Detiene el servidor que tiene {Runnable},
      *
      */
     public final void stopServer() {
@@ -361,7 +361,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code run}. Inicia el servidor qu tiene el {Runnable}.
+     * FIXME: Description of method {@code run}. Inicia el servidor qu tiene el {Runnable}.
      *
      */
     @Override
@@ -370,7 +370,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code stop}. Detiene el servidor.
+     * FIXME: Description of method {@code stop}. Detiene el servidor.
      *
      */
     public final void stop() {
@@ -378,7 +378,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code sendResponse}. Envía respuestas al cliente.
+     * FIXME: Description of method {@code sendResponse}. Envía respuestas al cliente.
      *
      * @param message es el mensaje que se le enviará al cliente.
      * @throws java.io.IOException
@@ -391,7 +391,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code sendResponse}. Envía respuestas al cliente.
+     * FIXME: Description of method {@code sendResponse}. Envía respuestas al cliente.
      *
      * @param message es el mensaje que se le enviará al cliente.
      * @throws java.io.IOException
@@ -403,7 +403,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code sendConfirmResponse}. Envía mensaje de confirmación al cliente.
+     * FIXME: Description of method {@code sendConfirmResponse}. Envía mensaje de confirmación al cliente.
      *
      * @throws java.io.IOException
      */
@@ -412,7 +412,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code sendRejectResponse}. Envía mensaje de rechazo al cliente.
+     * FIXME: Description of method {@code sendRejectResponse}. Envía mensaje de rechazo al cliente.
      *
      * @throws java.io.IOException
      */
@@ -421,7 +421,7 @@ public class GenericUdpServer implements GenericUdp, Runnable {
     }
 
     /**
-     * FIXME: Description of {@code onTestConnectionRequest}. Realiza una acción luego de que se
+     * FIXME: Description of method {@code onTestConnectionRequest}. Realiza una acción luego de que se
      * obtenga una petición de probar la conexión.
      *
      */

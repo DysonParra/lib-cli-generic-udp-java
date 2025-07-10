@@ -1,5 +1,5 @@
 /*
- * @fileoverview    {GenericUdp}
+ * @overview        {GenericUdp}
  *
  * @version         2.0
  *
